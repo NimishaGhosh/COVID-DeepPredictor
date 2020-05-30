@@ -1,4 +1,4 @@
-function [net,virusname]=COVIDdeepPredictor()
+efunction [net,virusname]=COVIDdeepPredictor()
 
 % COVIDdeepPredictor takes genomic sequence of a virus and the corresponding virus name as inputs for
 % training and gives the virus name of a provided genomic sequence (by user) as output.
@@ -9,7 +9,7 @@ function [net,virusname]=COVIDdeepPredictor()
 % The second argument in nmercunt can be changed to specify the length of
 % the genomic sequence that will be used for training (Please be careful to use the same length
 % in the training, validation and testing data sets as well).
-% From the prepared motifs Bag-of-Words (BoWs) are created using
+% From the prepared motifs Bag of Unique Descriptors are created using
 % tokenizedDocument and wordEncoding. COVIDdeepPredictor is then trained with the input data using Long-Short Term Memory for six virus classes.
 % For reproducibility, the trained model can be saved using the save command (Here,it is commented. User can uncomment it if he/she wants to save a trained model). 
 % The trained model can now be used to identify a virus type based on its
