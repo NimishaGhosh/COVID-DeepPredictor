@@ -6,7 +6,7 @@ efunction [net,virusname]=COVIDdeepPredictor()
 % divided into training and validation set. For taking validation set, 
 % cross-validation technique (cvpartition) has been applied. nmercount has
 % been used to divide the input genomic sequence into motifs of sequences.
-% The second argument in nmercunt can be changed to specify the length of
+% The second argument in nmercount can be changed to specify the length of
 % the genomic sequence that will be used for training (Please be careful to use the same length
 % in the training, validation and testing data sets as well).
 % From the prepared motifs Bag of Unique Descriptors are created using
