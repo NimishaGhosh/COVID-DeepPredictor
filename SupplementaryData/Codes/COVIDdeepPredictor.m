@@ -5,7 +5,7 @@ efunction [net,virusname]=COVIDdeepPredictor()
 % The entire input sequence can be either taken for training or can be
 % divided into training and validation set. For taking validation set, 
 % cross-validation technique (cvpartition) has been applied. nmercount has
-% been used to divide the input genomic sequence into motifs of sequences.
+% been used to divide the input genomic sequence into descriptors.
 % The second argument in nmercount can be changed to specify the length of
 % the genomic sequence that will be used for training (Please be careful to use the same length
 % in the training, validation and testing data sets as well).
