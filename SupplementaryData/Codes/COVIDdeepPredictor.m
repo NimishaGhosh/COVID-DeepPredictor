@@ -81,8 +81,8 @@ efunction [net,virusname]=COVIDdeepPredictor()
     
  net = trainNetwork(XTrain,YTrain,layers,options);
  
-%  trainnet_1=net;
-%  save('trainnet_1');
+%  trainnet_42=net;
+%  save('trainnet_42');
 
   tabData = readtable('Testdata-1.csv', 'delimiter', ',', 'ReadVariableNames', false, 'HeaderLines', 1);
 
